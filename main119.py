@@ -1,6 +1,6 @@
 # Write a program print duplicate element present in the list
 
-my_list = [1, 2, 3, 2, 4, 5, 1, 6, 7, 5]
+my_list = [1, 2, 3, 2, 4, 5]
 
 duplicates = []
 
