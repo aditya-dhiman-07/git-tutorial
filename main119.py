@@ -9,3 +9,4 @@ for item in my_list:
         duplicates.append(item)
 
 print("Duplicate elements are:", duplicates)
+print("version 5")
