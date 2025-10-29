@@ -2,14 +2,17 @@
 namespace first{
     int x = 1;
 }
-namespace second{
+namespace seco{
     int x = 2;
 }
 int main(){
+    using namespace std;
     using namespace first;
-    // int x = 0;
+    //int x = 0;
+    //version 4
     int a = 10 ; int b = 88 ; int c = 99;
-    std::cout <<a+b+c << std:: endl;
-    std::cout <<second::x;
+    cout <<a+b+c << std:: endl;
+    cout <<seco::x ;
+    
     return 0;
 }                                                                                                               
